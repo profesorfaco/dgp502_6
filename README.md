@@ -4,7 +4,9 @@ Seminario Gráfica Computacional I 2018, Primer Semestre → Clase 6 → Viernes
 
 ### Visualización de datos
 
-En [la clase recién pasada](https://github.com/profesorfaco/dgp502_5/)… Primera clase de la tercera iteración.
+En [la clase recién pasada](https://github.com/profesorfaco/dgp502_5/)… 
+
+Primera clase de la tercera iteración.
 
 - - - - 
 
