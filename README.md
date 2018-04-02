@@ -10,6 +10,23 @@ En [la clase recién pasada](https://github.com/profesorfaco/dgp502_5/) cerramos
 - [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [CANVAS](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial)
 - [P5.js](https://p5js.org/es/)
 
+[Canvas (en castellano, lienzo)](https://developer.mozilla.org/es/docs/Web/HTML/Canvas) se puede utilizar para dibujar gráficos a través de secuencias de comandos JavaScript: 
+
+```
+<canvas id="miCanvas" width="400" height="400" style="background:silver;"></canvas>
+<script>
+  var canvas = document.getElementById('miCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = canvas.width / 2;
+  var centerY = canvas.height / 2;
+  var radius = 70;
+  context.beginPath();
+  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+  context.fillStyle = '#333';
+  context.fill();
+</script>
+```
+
 - - - - 
 
 [Avanzar a la siguiente clase](https://github.com/profesorfaco/dgp502_7/)
